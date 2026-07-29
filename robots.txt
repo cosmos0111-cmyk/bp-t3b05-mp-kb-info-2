@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://top-mapo-shirts.xyz/sitemap.xml
+Sitemap: https://top-mapo-shirts.xyz/sitemap-index.xml
