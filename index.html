@@ -56,6 +56,11 @@ div[data-post-index-navigation="true"] a { display:inline-flex !important; visib
 nav.pager, nav.post-pager, nav[data-site-documents="true"] { display:flex !important; visibility:visible !important; flex-wrap:wrap; gap:12px; padding:16px 0; }
 nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:6px 10px; color:inherit; }
 :where(main, article, .content) :where(img), :where(body) > :where(img) { max-width:100%; height:auto; }
+/* legacy-mobile-decorative-frame */
+@media (max-width:768px) {
+  .k-box-3vn4::after { left:0; right:0; }
+  button.hamburger { display:block; }
+}
 </style></head>
 <body><div data-post-index-navigation="true" aria-label="글 목록 안내"><a href="posts.html">글 목록</a></div>
  <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('nav').classList.toggle('show')">☰</button>
