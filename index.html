@@ -34,21 +34,21 @@
  nav{background:#1c1108;color:#f9f4ec;height:100vh;position:fixed;top:0;left:0;width:200px;overflow:auto;}
  nav ul{list-style:none;padding:0;margin:0;}
  nav li{padding:0.8rem 1rem;order:0;}
- nav a{color:#f9f4ec;text-decoration:none;font-family:"Cormorant Garamond", serif;}
- main{margin-left:200px;}
- @media (max-width:768px){
+  nav a{color:#f9f4ec;text-decoration:none;font-family:"Cormorant Garamond", serif;}
+  main{margin-left:200px;}
+  .hamburger{display:none;}
+  @media (max-width:768px){
  nav{position:relative;height:auto;width:100%;display:none;}
  nav.show{display:block;}
  .r-img-44u7{grid-template-columns:1fr;}
  main{margin-left:0;}
- .hamburger{display:block;background:none;border:none;color:#f9f4ec;font-size:1.5rem;cursor:pointer;padding:0.8rem;}
- }
- .hamburger{display:none;}
- footer{background:#1c1108;color:#f9f4ec;text-align:center;padding:24px 0;font-size:0.9rem;border-top:3px solid #000;}
+  .hamburger{display:block;background:none;border:none;color:#f9f4ec;font-size:1.5rem;cursor:pointer;padding:0.8rem;}
+  }
+  footer{background:#1c1108;color:#f9f4ec;text-align:center;padding:24px 0;font-size:0.9rem;border-top:3px solid #000;}
  .author-bio{background:#f9f4ec;color:#1c1108;padding:24px;margin:2rem 0;border:3px solid #000;}
  </style>
  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"마포 노래방 정보 — 처음 방문자를 위한 조건별 선택 안내","description":"마포에 있는 노래방을 처음 찾는 분들을 위해 인원 규모·시간대·목적별로 준비사항과 적합성을 상세히 안내합니다.","url":"https://top-mapo-shirts.xyz/","author":{"@type":"Person","name":"지은 로컬가이드"}}</script>
- <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"마포 노래방은 주말에 언제 가장 한가한가요?","acceptedAnswer":{"@type":"Answer","text":"기존 안내의 주말 오후 2시~4시를 이번 방문의 무대기·평일 동일 요금 보장으로 보지 않습니다. 방문 날짜와 인원을 말하고 빈방, 대기 여부, 적용 요금과 기본 이용 시간을 각각 확인합니다."}},{"@type":"Question","name":"노래방 안에서 음식을 섭취해도 되나요?","acceptedAnswer":{"@type":"Answer","text":"가져오려는 음식 종류를 말하고 해당 매장의 반입 가능 여부와 적용 조건을 묻습니다. 매장 내 음식 판매 여부와 외부 음식 조건은 별도로 확인하며, 다른 매장의 답을 이번 방문 조건으로 대신하지 않습니다."}},{"@type":"Question","name":"예약 없이 바로 입장할 수 있는 방이 있나요?","acceptedAnswer":{"@type":"Answer","text":"이른 저녁이나 평일 낮시간대라도 매장 상황에 따라 빈방 유무가 다르므로 무조건적인 즉시 입장이 확정되지는 않습니다. 방문 당일 프론트나 현장에서 실시간 빈방 현황을 확인해야 합니다."}}]}</script>
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"예약 없이 바로 입장할 수 있는 방이 있나요?","acceptedAnswer":{"@type":"Answer","text":"이른 저녁이나 평일 낮시간대라도 매장 상황에 따라 빈방 유무가 다르므로 무조건적인 즉시 입장이 확정되지는 않습니다. 방문 당일 프론트나 현장에서 실시간 빈방 현황을 확인해야 합니다."}},{"@type":"Question","name":"마포 노래방은 주말에 언제 가장 한가한가요?","acceptedAnswer":{"@type":"Answer","text":"기존 안내의 주말 오후 2시~4시를 이번 방문의 무대기·평일 동일 요금 보장으로 보지 않습니다. 방문 날짜와 인원을 말하고 빈방, 대기 여부, 적용 요금과 기본 이용 시간을 각각 확인합니다."}},{"@type":"Question","name":"노래방 안에서 음식을 섭취해도 되나요?","acceptedAnswer":{"@type":"Answer","text":"가져오려는 음식 종류를 말하고 해당 매장의 반입 가능 여부와 적용 조건을 묻습니다. 매장 내 음식 판매 여부와 외부 음식 조건은 별도로 확인하며, 다른 매장의 답을 이번 방문 조건으로 대신하지 않습니다."}}]}</script>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <style data-post-index-reader-style="true">
 div[data-post-index-navigation="true"] { display:block !important; visibility:visible !important; position:fixed; right:16px; bottom:16px; z-index:1001; max-width:calc(100% - 32px); padding:0; text-align:right; }
@@ -59,21 +59,21 @@ nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inlin
 /* legacy-mobile-decorative-frame */
 @media (max-width:768px) {
   .k-box-3vn4::after { left:0; right:0; }
-  button.hamburger { display:block; }
+
 }
 </style></head>
 <body><div data-post-index-navigation="true" aria-label="글 목록 안내"><a href="posts.html">글 목록</a></div>
  <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('nav').classList.toggle('show')">☰</button>
  <nav role="region" aria-label="Global Navigation">
  <ul>
- <li style="order:3"><a href="#hero">소개</a></li>
+ <li style="order:3"><a href="#intro">소개</a></li>
  <li style="order:1"><a href="#criteria">선택 기준</a></li>
  <li style="order:4"><a href="#scenario">상황별 분기</a></li>
  <li style="order:2"><a href="#faq">FAQ</a></li>
  </ul>
  </nav>
  <main>
- <section class="t-wrap-ms0j" id="hero">
+ <section class="t-wrap-ms0j" id="intro">
  <div class="r-img-44u7">
  <h1 class="v-img-jiam">마포 노래방 정보 — 처음 방문자를 위한 조건별 선택 안내</h1>
  <p>마포는 음악과 젊음이 살아 숨 쉬는 거리이며, 수많은 노래방이 모여 있습니다. 이 페이지는 처음 마포에 방문하는 여러분이 상황에 맞는 노래방을 고를 수 있도록 구체적인 체크리스트와 상황별 판단 근거를 제시합니다.</p>
@@ -130,12 +130,12 @@ nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inlin
  <section class="t-wrap-ms0j" id="faq">
  <span class="m-grid-lvis">FAQ</span>
  <h2>자주 묻는 질문</h2>
- <p><strong>Q1. 마포 노래방은 주말에 언제 가장 한가한가요?</strong><br>
- A. 기존 안내의 주말 오후 2시~4시를 이번 방문의 무대기·평일 동일 요금 보장으로 보지 않습니다. 방문 날짜와 인원을 말하고 빈방, 대기 여부, 적용 요금과 기본 이용 시간을 각각 확인합니다.</p>
- <p><strong>Q2. 노래방 안에서 음식을 섭취해도 되나요?</strong><br>
- A. 가져오려는 음식 종류를 말하고 해당 매장의 반입 가능 여부와 적용 조건을 묻습니다. 매장 내 음식 판매 여부와 외부 음식 조건은 별도로 확인하며, 다른 매장의 답을 이번 방문 조건으로 대신하지 않습니다.</p>
- <p><strong>Q3. 예약 없이 바로 입장할 수 있는 방이 있나요?</strong><br>
- A. 이른 저녁이나 평일 낮시간대라도 매장 상황에 따라 빈방 유무가 다르므로 무조건적인 즉시 입장이 확정되지는 않습니다. 방문 당일 프론트나 현장에서 실시간 빈방 현황을 확인해야 합니다.</p>
+  <p><strong>Q1. 예약 없이 바로 입장할 수 있는 방이 있나요?</strong><br>
+  A. 이른 저녁이나 평일 낮시간대라도 매장 상황에 따라 빈방 유무가 다르므로 무조건적인 즉시 입장이 확정되지는 않습니다. 방문 당일 프론트나 현장에서 실시간 빈방 현황을 확인해야 합니다.</p>
+  <p><strong>Q2. 마포 노래방은 주말에 언제 가장 한가한가요?</strong><br>
+  A. 기존 안내의 주말 오후 2시~4시를 이번 방문의 무대기·평일 동일 요금 보장으로 보지 않습니다. 방문 날짜와 인원을 말하고 빈방, 대기 여부, 적용 요금과 기본 이용 시간을 각각 확인합니다.</p>
+  <p><strong>Q3. 노래방 안에서 음식을 섭취해도 되나요?</strong><br>
+  A. 가져오려는 음식 종류를 말하고 해당 매장의 반입 가능 여부와 적용 조건을 묻습니다. 매장 내 음식 판매 여부와 외부 음식 조건은 별도로 확인하며, 다른 매장의 답을 이번 방문 조건으로 대신하지 않습니다.</p>
  </section>
 
  <footer>
